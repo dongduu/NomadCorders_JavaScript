@@ -1,6 +1,9 @@
-const amIFat = null;
-let something;
-console.log(something);
-// true: 참 false: 거짓
-// null: 아무것도 없음을 의미, 자연적 발생X, 값이 주어져 있는 상태, 사람에 의해 의도적 표현
-// undifined: 값이 주어지지 않은 것
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+console.log(daysOfWeek);
+
+// 배열 안에 있는 요소 가져오기
+console.log(daysOfWeek[4]);
+
+// 배열 추가하기
+daysOfWeek.push("sun");
+console.log(daysOfWeek);
