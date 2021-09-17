@@ -1,12 +1,6 @@
-const a = 5; // const: 상수(값 업데이트 불가능)
-const b = 2;
-let myName = "dongdu"; // let: 변수(나중에 바꿀 수 있음)
-
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("Hello " + myName);
-
-myName = "dudu"; // let은 처음 생성할 때만 사용
-
-console.log("your new name is " + myName); 
+const amIFat = null;
+let something;
+console.log(something);
+// true: 참 false: 거짓
+// null: 아무것도 없음을 의미, 자연적 발생X, 값이 주어져 있는 상태, 사람에 의해 의도적 표현
+// undifined: 값이 주어지지 않은 것
