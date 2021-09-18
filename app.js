@@ -1,13 +1,7 @@
-const player = {
-    name: "dongdu",
-    point: 412,
-    pretty: true,
-    fat: false,
-};
+function sayHello() {
+    console.log("Hello my name is a");
+}
 
-console.log(player);
-console.log(player.name);
-console.log(player["pretty"]);
-
-player.lastName = "Lee"; 
-console.log(player);
+sayHello("dongdu");
+sayHello("nico");
+sayHello("hyun6ick");
