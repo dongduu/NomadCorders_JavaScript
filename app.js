@@ -1,9 +1,13 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
-console.log(daysOfWeek);
+const player = {
+    name: "dongdu",
+    point: 412,
+    pretty: true,
+    fat: false,
+};
 
-// 배열 안에 있는 요소 가져오기
-console.log(daysOfWeek[4]);
+console.log(player);
+console.log(player.name);
+console.log(player["pretty"]);
 
-// 배열 추가하기
-daysOfWeek.push("sun");
-console.log(daysOfWeek);
+player.lastName = "Lee"; 
+console.log(player);
