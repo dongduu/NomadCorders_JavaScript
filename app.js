@@ -1,6 +1,8 @@
 const calculator = {
     plus: function (a, b) {
+        console.log('hello');
         return a + b;
+        console.log('buy'); // return이 끝을 내서 실행되지 않음
     },
     minus: function (a, b) {
         return a - b;
