@@ -1,27 +1,4 @@
-const calculator = {
-    plus: function (a, b) {
-        console.log('hello');
-        return a + b;
-        console.log('buy'); // return이 끝을 내서 실행되지 않음
-    },
-    minus: function (a, b) {
-        return a - b;
-    },
-    divide: function (a, b) {
-        return a / b;
-    },
-    multi: function (a, b) {
-        return a * b;
-    },
-    powerOf: function (a, b) {
-        return a ** b;
-    },
-};
-
-const resultA = calculator.plus (12, 43);
-const resultB = calculator.minus (resultA, 10);
-const resultC = calculator.divide (resultB, 5); // 상호의존 상태
-
-console.log(resultA); // 외부에서 사용
-console.log(resultB);
-console.log(resultC);
+const age = prompt("몇 살 입니까?");
+console.log(parseInt(age)); // 사용자가 숫자가 아닌 값을 입력했을 때 인지 할 수 있음
+// const age = parseInt(prompt("몇 살 입니까?"));
+// console.log (age);
