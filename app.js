@@ -8,4 +8,14 @@ function handleTilteClick () {
     title.style.color = "green";
 }
 
+function handelMouseEnter () {
+    title.innerText = "mouse is here!";
+}
+
+function handelMouseLeave () {
+    title.innerText = "mouse is gone!";
+}
+
 title.addEventListener("click", handleTilteClick); // 클릭 했을 때 핸들 함수가 실행(함수에 괄호를 넣으면 안 됨)
+title.addEventListener("mouseenter", handelMouseEnter);
+title.addEventListener("mouseleave", handelMouseLeave);
