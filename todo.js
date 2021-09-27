@@ -1,5 +1,5 @@
-const toDoForm = document.getElementById("todo-Form");
-const toDoInput = document.querySelector("#todo-Form input");
+const toDoForm = document.getElementById("todo-form");
+const toDoInput = document.querySelector("#todo-form input");
 const toDoList = document.getElementById("todo-list");
 
 function toDoSubmit (event) {
